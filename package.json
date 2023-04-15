@@ -1,0 +1,26 @@
+{
+  "name": "npci",
+  "version": "1.0.0",
+  "description": "Payment Gateway Handler Microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakraj5/npci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepakraj5/npci/issues"
+  },
+  "homepage": "https://github.com/deepakraj5/npci#readme",
+  "dependencies": {
+    "inversify": "^6.0.1",
+    "reflect-metadata": "^0.1.13",
+    "serverless": "^3.30.1",
+    "ts-node": "^10.9.1"
+  }
+}
