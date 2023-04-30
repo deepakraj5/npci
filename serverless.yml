@@ -4,5 +4,13 @@ frameworkVersion: '3'
 provider:
   name: aws
   runtime: nodejs16.x
+  profile: deepak
+
+plugins:
+  - serverless-webpack
+
+custom:
+  webpack:
+    webpackConfig: webpack.config.js
 
 functions: ${file(config/lambda.yml)}
