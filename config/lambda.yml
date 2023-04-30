@@ -1,0 +1,2 @@
+sample:
+  handler: src/ui/sample.handler
